@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marido de Aluguel</title>
+  <link rel="stylesheet" href="/assets/css/reset.css" />
+  <link rel="stylesheet" href="/assets/css/global.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="limit-section">
+    <div class="logo">
+      <img src="/assets/imgs/Logos.png" alt="Logotipo" />
+    </div>
+    <div class="desktop-menu">
+      <nav>
+        <ul>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <button class="btn">
+            <a href="#">Solicite um orçamento</a>
+          </button>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="mobile-menu-icon">
+      <button onclick="menuAtivo()">
+        <img class="icon" src="assets/imgs/menu-hamburguer.png" alt="menu Hamburguer">
+      </button>
+    </div>
+
+    <div class="mobile-menu">
+      <nav class="nav-bar">
+        <ul class="mobile-list">
+          <li class="nav-item"><a href="#servicos">Serviços</a></li>
+          <li class="nav-item"><a href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="principal-banner">
+      <div class="principal-content limit-section">
+        <h3>Seu <span>Marido de Aluguel</span></h3>
+        <h1>Resolvendo Tudo para Você!</h1>
+        <p>
+          Tenho todas as soluções para os seus problemas, desde pinturas e
+          reparos, até serviços elétricos e hidráulicos.
+        </p>
+        <button class="btn">
+          <a href="#"> Faça já o seu orçamento</a>
+        </button>
+
+      </div>
+      <div class="box-seta">
+        <a href="#servicos">
+          <img src="/assets/imgs/Seta.png" alt="Seta" class="seta-para-baixo" />
+        </a>
+      </div>
+
+      <img class="whatsapp-icon" src="/assets/imgs/button-whatsapp-white-vector.svg" alt="WhatsApp" />
+    </section>
+
+    <section id="servicos">
+      <div class="limit-section">
+        <div class="servicos-title box-title">
+          <h4>Serviços</h4>
+          <p>
+            Qualidade e responsabilidade em cada projeto, aliados ao melhor
+            atendimento e preços imbatíveis
+          </p>
+        </div>
+
+        <div class="cards-servicos limit-section">
+          <div class="card">
+            <img src="assets/imgs/pinturas.png" alt="Imagem do serviço de pintura" class="img-card" />
+            <h3>Pinturas e Reparos</h3>
+            <p>
+              Você está buscando um pintor para sua casa, apartamento,
+              condomínio ou empresa que ofereça eficiência, segurança e
+              rapidez em todos os reparos necessários?
+            </p>
+            <button class="button-problema">
+              <img class="img-whatsapp" src="assets/imgs/Vector-laranja.png" alt="Logo WhatsApp laranja" />
+              <a href="http://"> Solucione esse problema! </a>
+            </button>
+          </div>
+
+          <div class="card">
+            <img class="img-card" src="assets/imgs/gessos.png"
+              alt="Imagem do serviço de instalação de gesso e Drywall" />
+            <h3>Gessos e Drywall</h3>
+            <p>
+              Em busca de uma solução eficaz para reparar suas paredes e
+              forros de drywall e gesso?
+            </p>
+            <button class="button-problema">
+              <img class="img-whatsapp" src="assets/imgs/Vector-laranja.png" alt="Logo WhatsApp laranja" />
+              <a href="http://"> Solucione esse problema! </a>
+            </button>
+          </div>
+
+          <div class="card">
+            <img src="assets/imgs/eletrica.png" alt="Imagem do serviço de elétrica" class="img-card" />
+
+            <h3>Elétrica</h3>
+            <p>
+              Problemas com cabeamento, choque no chuveiro, ou lâmpadas e
+              tomadas que não funcionam?
+            </p>
+            <button class="button-problema">
+              <img class="img-whatsapp" src="assets/imgs/Vector-laranja.png" alt="Logo WhatsApp laranja" />
+              <a href="http://"> Solucione esse problema! </a>
+            </button>
+          </div>
+
+          <div class="card">
+            <img class="img-card" src="assets/imgs/hidraulica.png" alt="Imagem do serviço de hidraulica" />
+            <h3>Hidráulica</h3>
+            <p>
+              Problemas com tubulações, torneiras gotejando ou banheiros
+              entupidos?
+            </p>
+            <button class="button-problema">
+              <img class="img-whatsapp" src="assets/imgs/Vector-laranja.png" alt="Logo WhatsApp laranja" />
+              <a href="http://"> Solucione esse problema! </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="limit-section">
+      <div class="box-title">
+        <h4><span class="text-orange">sobre</span></h4>
+        <h2 class="title">
+          Nascimento Marido de <span class="text-orange">Aluguel</span>
+        </h2>
+      </div>
+
+      <div class="sobre-content limit-section">
+        <div class="sobre-description">
+          <p>
+            Quebrou e não sabe consertar? Sem Stress! Vamos até sua casa e
+            resolvemos tudo. Somos a empresa de Marido de Aluguel mais
+            conhecido em Curitiba, não sofra mais. Ligue agora mesmo que já
+            resolvemos.
+          </p>
+          <p>
+            Nós iremos deixar seu imóvel pronto com todas as instalações de
+            torneiras, pias, cubas, sifões, luminárias, quadros, espelhos,
+            varais, cortinas e tudo mais que você precisar.
+          </p>
+
+          <button class="btn"><a href="#">Entrar em contato</a></button>
+        </div>
+
+        <div class="fotosobre">
+          <img src="/assets/imgs/Foto.png" alt="foto-sobre" />
+        </div>
+      </div>
+    </section>
+
+    <section id="depoimentos">
+      <div class="depoimentos-content limit-section">
+        <h2 class="title">Depoimentos</h2>
+        <div class="slider">
+          <div class="slides">
+            <!-- radio buttons -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!-- Fim do Radius buttons -->
+
+            <!-- Slide imgens -->
+            <div class="slide first">
+              <img src="/assets/imgs/card-maria.png" alt="Maria">
+            </div>
+            <div class="slide">
+              <img src="/assets/imgs/card-joao.png" alt="Joao">
+            </div>
+            <div class="slide">
+              <img src="/assets/imgs/card-renata.png" alt="Ren">
+            </div>
+            <div class="slide">
+              <img src="/assets/imgs/card-wallace.png" alt="Wallace">
+            </div>
+            <!-- Fim do slide images -->
+
+            <!-- navigator alt -->
+            <div class="navigator">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+
+            </div>
+            <!-- Fim do navigator -->
+            <div class="manual-navigator">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+              <label for="radio4" class="manual-btn"></label>
+            </div>
+
+          </div>
+        </div>
+        <!-- 
+            <div class="slider-content">
+                <input type="radio" name="btn-radio" id="radio1">
+                <input type="radio" name="btn-radio" id="radio2">
+
+                
+
+                    
+                <div class="slide-box primeiro">
+                    <img src="assets/imgs/card-maria.png" alt="Depoimento da Maria">
+                </div>
+
+                <div class="slide-box">
+                    <img src="assets/imgs/card-joao.png" alt="Depoimento do João">
+                </div>
+
+                <div class="slide-box">
+                    <img src="assets/imgs/card-renata.png" alt="Depoimento da Renata">
+                </div>
+
+                <div class="slide-box">
+                    <img src="assets/imgs/card-paulo.png" alt="Depoimento do Paulo">
+                </div>
+
+                <div class="slide-box">
+                    <img src="assets/imgs/card-wallace.png" alt="Depoimento do Wallace">
+                </div>
+
+                <div class="nav-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                </div>
+
+                <div class="nav-manual">
+                    <label class="manual-btn" for="radio1"></label>
+                    <label class="manual-btn" for="radio2"></label>
+
+                 
+                </div>
+            </div>
+        </div> -->
+    </section>
+  </main>
+
+  <footer>
+    <div id="contato" class="limit-section">
+      <div class="box-title">
+        <span class="text-orange">
+          <h4>contato</h4>
+        </span>
+        <h2 class="title">Fale comigo</h2>
+      </div>
+
+      <div class="contato-content">
+        <p>
+          Entre em contato comigo através destes meios de comunicação para
+          esclarecer dúvidas ou solicitar um orçamento.
+        </p>
+        <div class="contato-redes">
+          <img src="assets/imgs/Vector.png" alt="Logo WhatsApp" />
+          <img src="assets/imgs/Group.png" alt="Logo Gmail" />
+        </div>
+      </div>
+    </div>
+
+    <div class="copy">
+      <div class="copy-content limit-section">
+        <a target="_blank" href="https://codeiweb.com.br">
+          <p>© 2023 | Desenvolvido por Codei - Criação de Sites</p>
+        </a>
+        <p>Nascimento Marido de Aluguel. Todos os Direitos Reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

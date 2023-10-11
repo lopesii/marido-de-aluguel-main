@@ -1,0 +1,30 @@
+.copy {
+
+    background-color: black;
+
+}
+
+.copy p {
+    font-size: 0.9rem;
+    color: white;
+}
+
+.copy-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .copy-content {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .copy p {
+        font-size: 0.6rem;
+    }
+}

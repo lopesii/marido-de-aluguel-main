@@ -1,0 +1,85 @@
+@import url(cards.css);
+
+
+#servicos {
+    width: 100%;
+    padding: 1rem 0rem 4rem 0rem;
+    background-color: black;
+    
+}
+.servicos-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicos-title p {
+    line-height: 23.44px;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.servicos-title h4 {
+    color: #FF4A00;
+    font-weight: 600;
+}
+
+.button-problema {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 2rem;
+    border: 2px solid #FF4A00;
+    background-color: black;
+    border-radius: 4px;
+    width: 60%;
+
+  }
+  
+  .button-problema a {
+    color: #FF4A00;
+    font-weight: bold;
+  }
+
+  
+@media screen and (max-width:1024px) {
+    .button-problema {
+        width: 80%;
+    }
+}
+
+
+
+@media screen and (max-width:1024px)  {
+    .button-problema {
+        width: 50%;
+    }
+
+    .servicos-title p {
+    width: 100%;;
+    }
+}
+
+@media screen and (max-width: 465px){
+    .button-problema {
+        width: 100%;
+        text-align: left;
+        padding: 1rem 1rem;
+    }
+
+    .button-problema a {
+        font-size: 0.9rem;
+    }
+
+    .servicos-title p {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+  
+}
+

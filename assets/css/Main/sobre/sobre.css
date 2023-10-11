@@ -1,0 +1,48 @@
+.sobre-content {
+    display: flex;
+    align-items: center;
+}
+
+.sobre-description {
+    text-align: left;
+    line-height: 1.5rem;
+    font-weight: 500;
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.sobre-description p {
+    margin-top: 1rem;
+    width: 70%;
+    font-size: 1.2rem;
+}
+
+.sobre-description button {
+    margin-top: 2rem;
+    background-color: #fff;
+    border: 1px solid #FF4A00;
+}
+
+.sobre-description button a {
+    color: #FF4A00;
+
+}
+
+
+@media screen and (max-width: 465px) {
+    .sobre-description p {
+        width: 100%;
+    }
+
+    .sobre-description {
+        padding: 0rem 0rem 8rem 0rem;
+    }
+
+    .sobre-description button {
+        width: 80%;
+        padding: 0.5rem 1rem;
+    }
+
+    .sobre-description button a {
+        font-size: 1rem;
+    }
+}
